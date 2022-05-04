@@ -1,13 +1,13 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: Gift
 logo: 
 author: themefisher
 description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
+email: giftabumere247@gmail.com
+phone: +2349067887538
+address: Kaduna Nigeria
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
@@ -38,13 +38,13 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Hi! I’m <br> Gift <br> Python Developer
 
 social:
-- {icon: "ti-facebook", link: "#"}
-- {icon: "ti-instagram", link: "#"}
-- {icon: "ti-dribbble", link: "#"}
-- {icon: "ti-twitter", link: "#"}
+- {icon: "ti-linkedin", link: "www.linkedin.com/in/gift-abumere-421982215"}
+- {icon: "ti-instagram", link: "https://www.instagram.com/gift_dev"}
+- {icon: "ti-twitter", link: "https://twitter.com/Gift80402043"}
+- {icon: "ti-github", link: "https://github.com/Gift-py"}
 
 
 #-------------------------------
@@ -95,10 +95,10 @@ team:
 
 skills-title: Skills
 skills:
-- {name: Web Design, color: '#fdb157', value: '90%'}
-- {name: Logo Design, color: '#9473e6', value: '60%'}
-- {name: After Effects, color: '#bdecf6', value: '80%'}
-- {name: Web App, color: '#ffbcaa', value: '70%'}
+- {name: Machine Learning, color: '#fdb157', value: '85%'}
+- {name: Deep Learning, color: '#9473e6', value: '60%'}
+- {name: Web Development (Django), color: '#bdecf6', value: '70%'}
+- {name: Data Science, color: '#ffbcaa', value: '70%'}
 
 
 #-------------------------------
@@ -116,10 +116,10 @@ experience:
 
 education-title: Education
 education:
-- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
-- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
-- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
-- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
+- {name: B.Sc Computer Science, date: '2023', organization: 'Airforce Institute of Technology'}
+- {name: Secondary School Certificate (SSCE, WAEC), date: '2019', organization: 'Christ Ambassadors College'}
+#- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
+#- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
 
 
 #-------------------------------
@@ -293,4 +293,4 @@ client-slider-items:
 # Contact Section
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: giftabumere247@gmail.com
