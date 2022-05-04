@@ -52,7 +52,7 @@ social:
 
 # About Section
 blurb:
-  I've always loved the concept of AI ever since i saw JARVIS in the first Iron Man movie i watched, and now I am just an [A]ctual [I]diot trying to create AIs. You are always welcome to join me on my journey on exploring the world of AI.. 😄✨
+  I've always loved the concept of AI ever since i saw JARVIS in the first Iron Man movie i watched, and now I am just an [A]ctual [I]diot trying to create AIs. You are always welcome to join me on my journey in exploring the world of AI.. 😄✨
 
 blurb-btn-link: '/about'
 blurb-btn-name: know more
@@ -96,7 +96,7 @@ team:
 skills-title: Skills
 skills:
 - {name: Machine Learning, color: '#fdb157', value: '85%'}
-- {name: Deep Learning, color: '#9473e6', value: '60%'}
+- {name: Web Design, color: '#9473e6', value: '90%'}
 - {name: Web Development (Django), color: '#bdecf6', value: '70%'}
 - {name: Data Science, color: '#ffbcaa', value: '70%'}
 
@@ -106,9 +106,9 @@ skills:
 
 experience-title: Experience
 experience:
-- {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
-- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
-- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
+- {name: Networking and SW-Dev Intern, icon: 'icon-1.png', date: 'Aug 2021 - Nov 2021', organization: 'EARTHLINK'}
+- {name: Backend (DJango) Developer, icon: 'icon-2.png', date: 'April 2022 - Present', organization: 'MY EVERY DEAL'}
+
 
 
 #-------------------------------
@@ -128,22 +128,22 @@ education:
 services-title: Services
 services:
 - {
-    name: UI Design,
+    name: Web Design,
     icon: ti-palette,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'I can create beautiful UI and UX designs for websites using HTML, CSS and JavaScript',
     active: # Add true to select section
   }
 - {
-    name: UX Design,
+    name: Web Development,
     icon: ti-vector,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'Capble of creating fully functional web apps with the necessary technologies like python DJango.',
     active: true # Add true to select section
   }
 - {
-    name: Interaction Design,
+    name: Machine Learning and Model Creation,
     icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: # Add true to select section
+    description: 'develop artificial intelligence (AI) systems that use large data sets to research, develop, and generate algorithms that can learn and make predictions.',
+    active: true
   }
 
 
