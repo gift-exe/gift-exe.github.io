@@ -144,7 +144,6 @@ services:
     icon: ti-panel,
     description: 'develop artificial intelligence (AI) systems that use large data sets to research, develop, and generate algorithms that can learn and make predictions.',
     active: #Add true to select section
-    
   }
 
 
