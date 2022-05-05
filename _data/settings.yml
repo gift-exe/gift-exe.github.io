@@ -41,7 +41,7 @@ hero:
   hero-title: Hi! I’m <br> Gift <br> A Python Developer
 
 social:
-- {icon: "ti-linkedin", link: "www.linkedin.com/in/gift-abumere-421982215"}
+- {icon: "ti-linkedin", link: "https://www.linkedin.com/in/gift-abumere-421982215"}
 - {icon: "ti-instagram", link: "https://www.instagram.com/gift_dev"}
 - {icon: "ti-twitter", link: "https://twitter.com/Gift80402043"}
 - {icon: "ti-github", link: "https://github.com/Gift-py"}
