@@ -259,47 +259,35 @@ portfolio-items:
 # Client Slider Section
 
 client-slider-items:
-  - logo: "assets/images/clients-logo/myevrer.png"
-    url: "https://www.instagram.com/myeverydeal/"
-    
-  - logo: "assets/images/clients-logo/icraft.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/myevrer.png"
-    url: "https://www.instagram.com/myeverydeal/"
-    
-  - logo: "assets/images/clients-logo/icraft.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/myevrer.png"
-    url: "https://www.instagram.com/myeverydeal/"
-    
-  - logo: "assets/images/clients-logo/icraft.png"
+  - logo: "assets/images/clients-logo/client-logo-1.png"
     url: "#"
     
-  #- logo: "assets/images/clients-logo/client-logo-3.png"
-  #  url: "#"
+  - logo: "assets/images/clients-logo/client-logo-2.png"
+    url: "#"
     
-  #- logo: "assets/images/clients-logo/client-logo-4.png"
-  #  url: "#"
+  - logo: "assets/images/clients-logo/client-logo-3.png"
+    url: "#"
     
-  #- logo: "assets/images/clients-logo/client-logo-5.png"
-  #  url: "#"
+  - logo: "assets/images/clients-logo/client-logo-4.png"
+    url: "#"
     
-  #- logo: "assets/images/clients-logo/client-logo-1.png"
-  #  url: "#"
+  - logo: "assets/images/clients-logo/client-logo-5.png"
+    url: "#"
     
-  #- logo: "assets/images/clients-logo/client-logo-2.png"
-  #  url: "#"
+  - logo: "assets/images/clients-logo/client-logo-1.png"
+    url: "#"
     
-  #- logo: "assets/images/clients-logo/client-logo-3.png"
-  #  url: "#"
+  - logo: "assets/images/clients-logo/client-logo-2.png"
+    url: "#"
     
-  #- logo: "assets/images/clients-logo/client-logo-4.png"
-  #  url: "#"
+  - logo: "assets/images/clients-logo/client-logo-3.png"
+    url: "#"
     
-  #- logo: "assets/images/clients-logo/client-logo-5.png"
-  #  url: "#"
+  - logo: "assets/images/clients-logo/client-logo-4.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-5.png"
+    url: "#"
 
 #-------------------------------
 # Contact Section
