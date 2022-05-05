@@ -52,7 +52,7 @@ social:
 
 # About Section
 blurb:
-  I've always loved the concept of AI ever since i saw JARVIS in the first Iron Man movie i watched, and now I am just an [A]ctual [I]diot trying to create AIs. You are always welcome to join me on my journey in exploring the world of AI.. 😄✨
+  I've always loved the concept of AI ever since i saw JARVIS in the first Iron Man movie I watched, now I am just an [A]ctual [I]diot trying to create AIs. You are always welcome to join me on my journey in exploring the world of AI and software in general.. 😄✨
 
 blurb-btn-link: '/about'
 blurb-btn-name: know more
@@ -76,18 +76,18 @@ work-process:
 
 
 # My Team Section
-team:
-  - title : "Jack Schenziwe"
-    image : "assets/images/team/member-1.png"
-    designation : "Project Manager"
+#team:
+  #- #title : "Jack Schenziwe"
+    #image : "assets/images/team/member-1.png"
+    #designation : "Project Manager"
     
-  - title : "Julias Carlie"
-    image : "assets/images/team/member-2.png"
-    designation : "Web Developer"
+  #- #title : "Julias Carlie"
+    #image : "assets/images/team/member-2.png"
+    #designation : "Web Developer"
     
-  - title : "John Doe"
-    image : "assets/images/team/member-3.png"
-    designation : "Designer"
+  #- #title : "John Doe"
+    #image : "assets/images/team/member-3.png"
+    #designation : "Designer"
 
 
 #-------------------------------
@@ -96,9 +96,9 @@ team:
 skills-title: Skills
 skills:
 - {name: Machine Learning, color: '#fdb157', value: '85%'}
+- {name: Data Science, color: '#ffbcaa', value: '70%'}
 - {name: Web Design, color: '#9473e6', value: '90%'}
 - {name: Web Development (Django), color: '#bdecf6', value: '70%'}
-- {name: Data Science, color: '#ffbcaa', value: '70%'}
 
 
 #-------------------------------
