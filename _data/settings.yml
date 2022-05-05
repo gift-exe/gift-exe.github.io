@@ -140,7 +140,7 @@ services:
     active: true # Add true to select section
   }
 - {
-    name: Machine Learning and Model Creation,
+    name: Machine Learning and Data Science,
     icon: ti-panel,
     description: 'develop artificial intelligence (AI) systems that use large data sets to research, develop, and generate algorithms that can learn and make predictions.',
     active: #Add true to select section
