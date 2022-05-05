@@ -64,15 +64,15 @@ blurb-btn-name: know more
 work-process:
   - title : "Research and Plan"
     icon : "assets/images/icons/plan.png"
-    content : "When given a task I ensure to do my 'Homework'. I make extensive research on the task at hand find the best way to tackle it and set out my plan on how exactly to tackle this problem as efficiently as possible"
+    content : "When given a task I ensure to do my 'Homework'. I make extensive research on the task at hand, find the best way to tackle it and draw out my plan on how exactly to tackle this problem as efficiently as possible."
     
   - title : "Design and Develop"
     icon : "assets/images/icons/design.png"
-    content : "This is where implementation of my plans takes place. I do everything thing that needs to be done, from data sourcing to algorithm design and implementation (coding) depending on what is needed to solve the task as hand"
+    content : "This is where implementation of the plans takes place. I do everything thing that needs to be done; from data sourcing to algorithm design and implementation (coding) depending on what is needed to solve the task as hand."
     
   - title : "Deliver"
     icon : "assets/images/icons/print.png"
-    content : "By the time the task given to me is solved and the product has been tested to ensure it works perfectly. Then I make the product to be as user friendly and easy to use as possible before delivering the product."
+    content : "By this time the task at hand is solved and the product has been tested to ensure it works perfectly. Then the product is made to be as user friendly and easy to use as possible before delivering the product."
 
 
 # My Team Section

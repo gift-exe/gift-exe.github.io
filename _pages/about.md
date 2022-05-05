@@ -5,13 +5,20 @@ author: Abumere Gift
 image: assets/images/about/author.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat.
+I just a simple guy, sometimes overly ambitious, and enthusiastic guy that alwayed had a passion for all
+things concerning software and computers in general. Presently in third year of Uni studying Computer Science
+at Airforce Institute of Technology Kaduna.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident.
+My favourite part of this feild (computer science) has to be Artificial Intelligence (Machine learning,
+Deep learning etc.) and I think it's because of too much sci-fi movies 😄👀 (don't blame me it's not 
+entirely my fault), and also because of the fact that, to a large extent that is what the future is about...
+AI being fully integrated in our everyday lives and human society as a whole.
 
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+Well I think one Big dream I have is to be a part of a team that works steadily and restlessly towards this 
+future (AI in human society). If this was 20-30 years ago, It would've seem like a far fetched dream. But now 
+it can easily be perceived as a possible reality. This is possible because of a lot of work that have been done
+by Giants before us, and to me it would be a real honour to be a part of this dream that is much bigger than us.
+
+I still have a lot to say 🙂 but one can only say so much at a time... There will be more intresting stuffs in the 
+blog section but for now, all i can say is for you to have a wonderful time. Just as Dr Karoly Zsolnai-Feher 
+(from one of my favourite youtube channels) would say; "What a time to be alive !!" ✨
