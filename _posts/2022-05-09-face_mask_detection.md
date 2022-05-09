@@ -164,5 +164,7 @@ This is a video to show the model at work in real time 😉
 
 [![Code Run!](/assets/images/blog/mask_pic.jpg)](/assets/images/blog/mask_video.mp4 "Model Video")
 
+If you have any issue feel free to contact me (use the contact me box below 👀). I'll definetly try to help you ✨✨
+
 Aiit... That's all for now.
 Lemme continue with school work (i literally have a project due tomorrow) 😪
