@@ -2,7 +2,7 @@
 layout: post
 title:  Face Mask Detection with CNNs
 date:   2022-05-09 09:20:00 +0100
-image:  /assets/images/blog/firstblog.jpg
+image:  /assets/images/blog/facemask_cnn.jpg
 author: Gift
 tags:   print('Hello world!')
 ---
@@ -116,7 +116,7 @@ then we load our model and go on from there
     # We load the xml file for capturing faces
     classifier = cv2.CascadeClassifier(r'\haarcascade_frontalface_default.xml')
 
-    
+
     while True:
         (rval, im) = webcam.read()
         im=cv2.flip(im,1,1) #Flip to act as a mirror
