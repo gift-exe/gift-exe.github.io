@@ -158,6 +158,11 @@ then we load our model and go on from there
     # Close all started windows
     cv2.destroyAllWindows()
 
-the complete code can be fount at my github page: [click here to visit](https://github.com/Gift-py/FaceMasks)
+the organized version of this code can be fount at my github page: [click here to visit](https://github.com/Gift-py/FaceMasks)
+
+This is a video to show the model at work in real time 😉
 
 [![Code Run!](/assets/images/blog/mask_pic.jpg)](/assets/images/blog/mask_video.mp4 "Model Video")
+
+Aiit... That's all for now.
+Lemme continue with school work (i literally have a project due tomorrow) 😪
