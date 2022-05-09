@@ -15,7 +15,7 @@ recommender systems, image classification, image segmentation, medical image ana
 
 CNNs were inspired by biological processe, in that the connectivity pattern between neurons in a CNN resembles the organization of the animal visual coretx.
 
-There a lot more to CNNs you can read more on https://en.wikipedia.org/wiki/Convolutional_neural_network.
+There a lot more to CNNs you can read more on [wikipedia](https://en.wikipedia.org/wiki/Convolutional_neural_network)
 
 Now we're going on to CNNs and face mask detection.
 
@@ -157,3 +157,7 @@ then we load our model and go on from there
 
     # Close all started windows
     cv2.destroyAllWindows()
+
+the complete code can be fount at my github page: [click here to visit](https://github.com/Gift-py/FaceMasks)
+
+[![Code Run!](/assets/images/blog/mask_pic.jpg)](/assets/images/blog/mask_video.mp4 "Model Video")
