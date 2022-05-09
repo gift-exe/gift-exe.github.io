@@ -4,7 +4,7 @@ title:  Face Mask Detection with CNNs
 date:   2022-05-09 09:20:00 +0100
 image:  /assets/images/blog/facemask_cnn.jpg
 author: Gift
-tags:   print('Hello world!')
+tags:   print('CNNs')
 ---
 
 Hello 👋🏿
