@@ -68,5 +68,5 @@ This project needs you! If you would like to support this project's further deve
 * **[Donate $100](https://www.paypal.me/themefisher/100USD)**: You are the man! This project saved me hours (if not days) of struggle and hard work, simply awesome!
 * **[Donate $1500](https://www.paypal.me/themefisher/1500USD)**: Go buddy, buy Macbook Pro for yourself!
 
-Of course, you can also choose what you want to donate, all donations are awesome !
+
 
