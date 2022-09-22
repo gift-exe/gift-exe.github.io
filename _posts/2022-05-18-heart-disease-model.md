@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Face Mask Detection with CNNs
+title:  Heart Diesase Detection (Using Linear Classifier)
 date:   2022-05-18 13:00:00 +0100
 image:  /assets/images/blog/heart_disease.jpg
 author: Gift
