@@ -1,0 +1,287 @@
+I"H6<p>Hello everyone…<br />
+I found a dataset not long ago from Alexey Grigorev free ML course, it’s pretty interesting check out the course 
+<a href="https://github.com/alexeygrigorev/mlbookcamp-code">here </a>, 
+and the link to the dataset is right <a href="https://github.com/Gift-py/MLBootCamp/blob/main/data.csv">here</a>.</p>
+
+<p>While i was playing around with the data (I don’t think what I was doing could be called EDA 😂💔), I noticed that the amount of missing values
+in a particular column (‘Market Category’) was much, and filling in the missing values with it’s measure of central tendency (mean, mode, median), 
+would not be sufficient. 
+So I decided to predict the missing values (note: by this time I had not even known there was such a thing known as multilabel classification 😃🤦🏿‍♂️).</p>
+
+<p>So after couple of hours trying to explain my problem to google 😩, I decided to give up…. 
+and I just asked a friend who had more experienced that me. 
+And after he explaind to me, that was when I finally had a clear understanding of the problem I had gotten myself into 😀… 
+(Gift is not a chicken so he decided to just go on with the suffering 😪).</p>
+
+<p>Okay, but before we go into my work I’ll first try to explain what multilabel classification is: 
+According to <a href="https://en.wikipedia.org/wiki/Multi-label_classification">wikipedia</a>, multi-label classification is a variant 
+of the classification problem where multiple labels may be assigned to each instance. Therefore it basically involves predicting zero or more label class,
+and technically you could have 2 or more “true values”. I’ll to explain what I mean.</p>
+
+<p>You could think about it like this. Lets say you have a couple of balls, and they’re all of different colors, some blue, some red, some back, 
+some white etc. If you wanted to show/ represent the color of each ball you could easily do something like this:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">#</th>
+      <th style="text-align: center">blue</th>
+      <th style="text-align: center">red</th>
+      <th style="text-align: center">black</th>
+      <th style="text-align: center">white</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">blue-ball</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">red-ball</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">black-ball</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">white-ball</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The matrix show the ball and it’s color, note that 1 represents true while 0 represents false in the matrix. So you can see that for each ball, 
+it’s corresponding color column is 1 while the rest column-rows would be zero.<br />
+Now imagine we have a dark-red ball and we want to represent it using the matrix. If we all agree that dark-red is a mix of red and black,
+we could easily do something like this:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">#</th>
+      <th style="text-align: center">blue</th>
+      <th style="text-align: center">red</th>
+      <th style="text-align: center">black</th>
+      <th style="text-align: center">white</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">blue-ball</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">red-ball</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">black-ball</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">white-ball</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">dark-red-ball</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">0</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>I’m sure you get the idea by now (you’re pretty smart yes, you 🤭).<br />
+you could do the same for a dark-blue ball, a sky-blue ball, a grey ball etc…</p>
+
+<p>So basically instead of creating a new column (feature) you just combined 2 different columns (features -&gt; red and black) to make a sorta new feature. 
+Now, my illustration is not the best in the world but it does capture a basic concept of multilabel classification without getting too complex.</p>
+
+<p>Some similar real word application of this could be in:<br />
+classifying the genre of a song or a movie<br />
+adding tags to a product in a shop/store. etc.</p>
+
+<p>So that is the basics of the basics about multilabel classification. Let me now show you  what I’ve done 😃</p>
+
+<p>The dataset is pretty simple and easy to work with. I would go quickly through the basic steps I took to solve this challenge.</p>
+
+<p>Lets import the libraries we’d need:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import numpy as np
+import pandas as pd
+</code></pre></div></div>
+
+<p>That all we would need for now. The model I used to classify the data was built using the “weka” app (it’s a pretty cool app).
+So what we really need to do is to preprocess the data and put it in a format that would be easier for weka to work with.</p>
+
+<p>Next step is to read the data and check for missing values:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>df = pd.read_csv('data.csv')
+print(df.isna().sum())
+
+output:  
+    Make                    0
+    Model                   0
+    Year                    0
+    Engine Fuel Type        3
+    Engine HP              69
+    Engine Cylinders       30
+    Transmission Type       0
+    Driven_Wheels           0
+    Number of Doors         6
+    Market Category      3742
+    Vehicle Size            0
+    Vehicle Style           0
+    highway MPG             0
+    city mpg                0
+    Popularity              0
+    MSRP                    0
+</code></pre></div></div>
+
+<p>You can see that the amount of missing columns in the “Market Category” is about 3.7k plus - it’s a lot - so it’s not advisable 
+to fill the missing values with central tendency neither is it a really good idea to drop the missing rows.<br />
+But for other columns with missing values you can easily fill the missing values with their central tendencies. So lets do that.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>df['Engine Fuel Type'].fillna(method='ffill', inplace=True)
+df['Engine HP'].fillna(df['Engine HP'].median(), inplace = True)
+df['Engine Cylinders'].fillna(df['Engine Cylinders'].mean(), inplace = True)
+df['Number of Doors'].fillna(method='ffill', inplace = True)
+df.drop('Model', axis=1, inplace=True)
+</code></pre></div></div>
+
+<p>With this you’ve filled the missing columns. You might be wondering why I chose  to fill the missing values with the 
+median for some and for some I used the mean, well it was simply a choice I made based on the data distribution in each columns 
+(check for skewness etc). It’s ultimately not a complex process.<br />
+A thing to note is that I dropped the “Model” columns this is mainly because this column is not very useful what trying to predict.
+Plus the number of unique values in that column was too much, it was ultimately going to add uneccessary complexity to the model.</p>
+
+<p>Once you do this there really is not muc work to be done in this aspect, since processes like one hot encoding for categorical variables 
+would be handled by weka.</p>
+
+<p>Next thing to do is to extract unique labels from our “Market Category” column. But before that let me show you how the 
+Market Category values look like (First 4 rows):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0    Factory Tuner,Luxury,High-Performance
+1                       Luxury,Performance
+2                  Luxury,High-Performance
+3                       Luxury,Performance
+</code></pre></div></div>
+
+<p>Basically the values in this column are strings but if you look closer you’ll see that they have a list-like structure. 
+Lets write some code to extract the unique labels:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>lst = df['Market Category'].unique()
+
+category_list = []
+#loop extracts unique label for the market category column 
+for i in lst:
+    if isinstance(i, str):     #prevents 'nan' values
+        if ',' in i:
+            new_list = i.split(',')
+            for j in new_list:
+                if j in category_list:
+                    print(j, 'already found')
+                    continue
+                else:
+                    category_list.append(j)
+                    print(j, 'added')
+        else:
+            if i in category_list:
+                print(i, 'already found')
+                continue
+            else:
+                category_list.append(i)
+                print(i, 'added')
+</code></pre></div></div>
+
+<p>Well, it’s not necessarily the pretiest code out there but it gets the work done. It’s a pretty simple code, what it does is to check if there is a 
+comma in the present row value, if there is then it seperates the string and add each unique label to a list (category_list). there is also an 
+if-else statement to make sure the same values are not added to the list twice. Let me show yo u the final output list.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>print(category_list)
+
+output:
+       ['Factory Tuner',
+        'Luxury',
+        'High-Performance',
+        'Performance',
+        'Flex Fuel',
+        'Hatchback',
+        'Hybrid',
+        'Diesel',
+        'Exotic',
+        'Crossover']
+</code></pre></div></div>
+
+<p>Ten unique labels (It’s a good sign 🙏🏿).<br />
+Okay so now we have our unique labels. Lets quickly create our prediction dataframe and move on to the encoding.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#create new df containg rows with missing market category (test_df)
+prediction_df = df.loc[df['Market Category'].isna()]
+#drop rows with missing market category
+df.drop(df.index[df['Market Category'].isna()], inplace=True)
+#drop market category column
+prediction_df.drop('Market Category', axis=1, inplace=True)
+</code></pre></div></div>
+
+<p>Nice ! Now that that’s done let get to the main part.<br />
+The idea here is to encode the Market Category column so that it would be relatively easier for a model to classify (and predict).<br />
+At first I pretty much assumed a simple one hot encoder could do the trick… it didn’t work. After checking online for a while 
+I finally found something interesting, it was a module from sklearn called MultiLabelBinarizer. It is a module that encodes 
+categorical columns but unlike the one hot encoder, It can encode multilabel columns. It would’ve been a perfect solution but It could not 
+detect the 10 unique labels. Even after manually specifing the labels. Another reason was because of the data type of the column, but even 
+after I changed the data type it still did not encode it correctly.<br />
+At this point I was pretty tired so I decided to create my own encoder (I mean how hard could it be 😐). Well the good news is that it wasn’t hard.</p>
+
+<p>The way the encoding function works is simple. We would get each unique label and map each label to a number, to be stored in a dictionary
+Then a list is created, filled with zeros, except for indexes corresponding to number encoding for each label.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def encoder(df_col, categories):
+    #create a dictionary map
+    label_to_int = dict((c, i) for i, c in enumerate(categories))
+
+    #encode to integer
+    label_encoded = [[[label_to_int[label] for label in cell.split(',') ] for cell in row] for row in df_col]
+
+    #create one hot list
+    oh_list = list()
+
+    for row in label_encoded:
+        for cell in row:
+            cell_enc = [0 for _ in range(len(categories))]
+            for label in cell:
+                cell_enc[label] = 1
+            oh_list.append(cell_enc)
+
+    return oh_list 
+</code></pre></div></div>
+
+<p>The function collects the column you want to encode and the unique labels of that column as arguments, encodes it and returns the column</p>
+
+:ET
