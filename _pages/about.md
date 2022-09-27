@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About Me
-author: Abumere Gift
+author: Gift
 image: assets/images/about/author.jpg
 ---
 
@@ -10,12 +10,12 @@ things concerning software and computers in general. Presently in third year of 
 at Airforce Institute of Technology Kaduna.
 
 My favourite part of this feild (computer science) has to be Artificial Intelligence (Machine learning,
-Deep learning etc.) and I think it's because of too much sci-fi movies 😄👀 (don't blame me it's not 
-entirely my fault), and also because of the fact that, to a large extent, I believe that is what the future is about...
+Deep learning etc.) and I think it's because I watched too much sci-fi movies while I was younger😄👀 (don't blame me it's not 
+entirely my fault), and also because of the fact that -- to a large extent -- I believe that is what the future is about...
 AI being fully integrated in our everyday lives and in human society as a whole.
 
 Well I think one Big dream I have is to be a part of a team that works steadily and restlessly towards this 
-future (AI in human society). If this was 20-30 years ago, It would've seem like a far fetched dream. But now 
+future (AI in human society). If this was 20-30 years ago, It would've seem like a fantasy. But now 
 it can easily be perceived as a possible reality. This is possible because of a lot of work that have been done
 by Giants before us, and to me, it would be a real honour to be a part of this dream that is much bigger than us.
 
