@@ -226,7 +226,7 @@ After this we just have to:
 
 I'll stop here for now. I'll probably come back to complete this story (maybe, maybe-not). You'll never know... besides some stories are left uncompleted.  
 
-Anyways if you're enthusiastic about how it ended you can always contact me... I'm always ready to help.  
+Anyways if you wanna know how it ended you can always contact me. 😌  
 
 Plus these websites would be a lot of help... (atleast they were to me):  
 [this](https://machinelearningmastery.com/multi-label-classification-with-deep-learning/), 
