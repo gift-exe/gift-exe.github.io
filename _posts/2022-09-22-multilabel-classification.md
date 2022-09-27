@@ -21,7 +21,7 @@ So I decided to predict the missing values (note: by this time I had not even kn
 So after couple of hours trying to explain this problem to google 😩, I decided to give up.... 
 and I simply asked a friend who had more experienced that me. 
 When he was done explaining (by explaining I mean sending me links to articles)... it was at this moment I knew I was in trouble 😀...  
-(PROBLEM STATEMENT DONE [epic..c..c..c]).  
+(PROBLEM STATEMENT DONE [hehe, epic.]).  
 
 Okay, but before we go into my work I'll first try to explain what multilabel classification is: 
 According to [wikipedia](https://en.wikipedia.org/wiki/Multi-label_classification), multi-label classification is a variant 
