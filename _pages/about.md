@@ -5,19 +5,20 @@ author: Gift
 image: assets/images/about/author.jpg
 ---
 
-I'm just a simple, sometimes overly ambitious, and enthusiastic guy that alwayed had a passion for all
-things concerning software and computers in general.
+I'm a complex, sometimes overly ambitious, and enthusiastic guy who's always had a passion for this dark art called "computer science" (you cannot convince me, this is not magic and sorcery 😂)
 
-My favourite part of this field (computer science) has to be Artificial Intelligence (Machine learning,
-Deep learning etc.) and I think it's because I watched too much sci-fi movies while I was younger😄👀 (don't blame me it's not 
-entirely my fault), and also because of the fact that -- to a large extent -- I believe that is what the future is about...
-AI being fully integrated in our everyday lives and in human society as a whole.
+A really cool part of this field that I'm interested in is Artificial Intelligence (of course it is lol) and it's definitely not because I watched too many sci-fi movies while I was younger😄👀.  
+Y'know, to a large extent, this is what the future is about...  
+(which is) AI being fully integrated into our everyday lives and into humanity as a race.  
 
-Well I think one Big dream I have is to be a part of a team that works steadily and restlessly towards this 
-future (AI in human society). If this was 20-30 years ago, It would've seem like a fantasy. But now 
-it can easily be perceived as a possible reality. This is possible because of a lot of work that have been done
-by Giants before us, and to me, it would be a real honour to be a part of this dream that is much bigger than us.
+Right now I'm trying to understand what exactly is going on in this field. Hopefully, everyone is as confused as me too (jk -- it's a joke it'll be bad if no one knew what they were doing 👀)  
 
-I still have a lot to say 🙂 but one can only say so much at a time... There will be more intresting stuffs in the 
-blog section but for now, all i can say is; "you should to have a wonderful time". Just as Dr Karoly Zsolnai-Feher 
-(from one of my favourite youtube channels) would say; "What a time to be alive !!" ✨
+I still have a lot to say 🙂 but I'm too lazy to type all of it... So for now, I'll try to become less confused and build some RL models while I'm at it (hehe).  
+
+Anyway, try not to take anything I say too personally, 'cause I'm mostly joking (or am I? 👀)  
+And remember stay in school and eat your vegetables 😁  
+And if you're done with school ...  
+umm, I don't think I am in a position to give you advice ...  
+Since I'm still in school ...   
+But do have a good one my good sir / dear lady / immaculate non-binary folks :)
+
