@@ -5,11 +5,10 @@ author: Gift
 image: assets/images/about/author.jpg
 ---
 
-I just a simple, sometimes overly ambitious, and enthusiastic guy that alwayed had a passion for all
-things concerning software and computers in general. Presently in third year of Uni studying Computer Science
-at Airforce Institute of Technology Kaduna.
+I'm just a simple, sometimes overly ambitious, and enthusiastic guy that alwayed had a passion for all
+things concerning software and computers in general.
 
-My favourite part of this feild (computer science) has to be Artificial Intelligence (Machine learning,
+My favourite part of this field (computer science) has to be Artificial Intelligence (Machine learning,
 Deep learning etc.) and I think it's because I watched too much sci-fi movies while I was younger😄👀 (don't blame me it's not 
 entirely my fault), and also because of the fact that -- to a large extent -- I believe that is what the future is about...
 AI being fully integrated in our everyday lives and in human society as a whole.
