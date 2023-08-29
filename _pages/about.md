@@ -5,7 +5,7 @@ author: Gift
 image: assets/images/about/author.jpg
 ---
 
-I'm a complex, sometimes overly ambitious, and enthusiastic guy who's always had a passion for this dark art called "computer science" (you cannot convince me, this is not magic and sorcery 😂)
+I  ..  am a complex (yeah that's right!!), sometimes overly ambitious, and an (almost) enthusiastic guy who's always had a passion for this dark art called "computer science" (you cannot convince me, this is not magic and sorcery 😂)
 
 A really cool part of this field that I'm interested in is Artificial Intelligence (of course it is lol) and it's definitely not because I watched too many sci-fi movies while I was younger😄👀.  
 Y'know, to a large extent, this is what the future is about...  
