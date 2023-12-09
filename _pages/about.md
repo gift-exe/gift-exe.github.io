@@ -12,10 +12,9 @@ A field of computer science I (and every other comp sci undergrad) is interested
 I believe, this is what the future is about...  
 AI being fully integrated into our everyday lives and into humanity as a race.  
 
-I still have a lot to say 🙂 but I'm too lazy to type all of it... So for now, I'll try to become less confused and build some ML models while I'm at it (hehe).  
+I still have a lot to say but I'm toooo tired to type all of it... For now I plan on making like 68 ultra-gajillion-billion dollars, and build some ML models while I'm at it (hehe).  
 
-Anyway, try not to take anything I say personally, 'cause I am "probably" joking (👀)
-And remember, stay in school kids and eat your vegetables lol  
+Anyways, remember to stay in school kids and eat your vegetables lol  
 
-Do have a good day my good sir / dear lady / immaculate non-binary folk :)
+Do have a good day my good sir / dear lady :)
 
