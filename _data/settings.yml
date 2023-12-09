@@ -59,19 +59,19 @@ blurb-btn-name: know more
 
 # About Page
 
-# Work Process Section
-# work-process:
-#   - title : "Research and Plan"
-#     icon : "assets/images/icons/plan.png"
-#     content : "When given a task I ensure to do my 'Homework'. I make extensive research on the task at hand, find the best way to tackle it and draw out my plan on how exactly to tackle this problem as efficiently as possible."
+Work Process Section
+work-process:
+  - title : "Research and Plan"
+    icon : "assets/images/icons/plan.png"
+    content : ""
     
-#   - title : "Design and Develop"
-#     icon : "assets/images/icons/design.png"
-#     content : "This is where implementation of the plans takes place. I do everything thing that needs to be done; from data sourcing to algorithm design and implementation (coding) depending on what is needed to solve the task as hand."
+  - title : "Design and Develop"
+    icon : "assets/images/icons/design.png"
+    content : ""
     
-#   - title : "Deliver"
-#     icon : "assets/images/icons/print.png"
-#     content : "By this time the task at hand is solved and the product has been tested to ensure it works perfectly. Then the product is made to be as user friendly and easy to use as possible before delivering the product."
+  - title : "Deliver"
+    icon : "assets/images/icons/print.png"
+    content : ""
 
 
 # My Team Section
