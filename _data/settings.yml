@@ -97,7 +97,6 @@ skills:
 - {name: Backend Engineering, color: '#bdecf6', value: '90%'}
 - {name: ML Engineering, color: '#fdb157', value: '85%'}
 - {name: Database Engineering, color: '#9473e6', value: '85%'}
-- {name: Dev Ops, color: '#ffbcaa', value: '70%'}
 - {name: Network Engineering, color: '#808080', value: '70%'}
 
 
@@ -109,8 +108,8 @@ experience-title: Experience
 experience:
 - {name: Network Engineering Intern, icon: 'icon-1.png', date: 'Aug 2021 - Nov 2021', organization: 'EarthLink'}
 - {name: Backend Engineer, icon: 'icon-3.png', date: 'April 2022 - August 2022', organization: 'My Every Deal'}
-- {name: Backend Engineer, icon: 'icon-2.png', date: 'January 2023 - March 2023', organization: 'NitHub'}
-- {name: Backend Engineer, icon: 'icon-3.png', date: 'August 2023 - December 2023', organization: 'Workdistro'}
+- {name: Software Engineer, icon: 'icon-2.png', date: 'January 2023 - March 2023', organization: 'NitHub'}
+- {name: Software Engineer, icon: 'icon-3.png', date: 'August 2023 - December 2023', organization: 'Workdistro'}
 
 
 
@@ -119,7 +118,7 @@ experience:
 
 education-title: Education
 education:
-- {name: B.Sc Computer Science, date: '2024', organization: 'Airforce Institute of Technology'}
+- {name: B.Sc Computer Science, date: '2023', organization: 'Airforce Institute of Technology'}
 - {name: SSCE, date: '2019', organization: 'Christ Ambassadors College'}
 #- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
 #- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
