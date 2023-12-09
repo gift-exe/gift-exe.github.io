@@ -8,6 +8,7 @@ image: assets/images/about/author.jpg
 I  ...  am a complex (yeah that's right!!), sometimes overly ambitious, and an enthusiastic fellow who's always had a passion for this dark art called "computer science" (you cannot convince me, this, "science" we speak of is not magic and sorcery)
 
 A field of computer science I (and every other comp sci undergrad) is interested in is Artificial Intelligence and it's definitely not because I've too many sci-fi movies about AI lol 👀.  
+    
 I believe, this is what the future is about...  
 AI being fully integrated into our everyday lives and into humanity as a race.  
 
