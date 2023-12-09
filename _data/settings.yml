@@ -59,7 +59,7 @@ blurb-btn-name: know more
 
 # About Page
 
-Work Process Section
+#Work Process Section
 work-process:
   - title : "Research and Plan"
     icon : "assets/images/icons/plan.png"
