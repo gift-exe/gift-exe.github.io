@@ -4,7 +4,7 @@
 title: Gift
 logo: 
 author: themefisher
-description: this is meta description
+description: LOL chicken wings !!!
 email: giftabumere247@gmail.com
 phone: (+234) 906-788-7538
 #address: Kaduna Nigeria
@@ -12,7 +12,7 @@ copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.c
 
 menu:
 - {name: About, link: '/about'}
-- {name: Blog, link: '/blog'}
+- {name: Articles, link: '/blog'}
 - {name: Portfolio, link: '/coming_soon.html'}
 - {name: Contact, link: '/contact'}
 
@@ -38,13 +38,12 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Gift <br> A Software Developer 
+  hero-title: Hi! I’m <br> Gift <br> A Software Engineer 
 
 social:
 - {icon: "ti-linkedin", link: "https://www.linkedin.com/in/gift-abumere-421982215"}
-- {icon: "ti-instagram", link: "https://www.instagram.com/gift_dev"}
-- {icon: "ti-twitter", link: "https://twitter.com/Gift80402043"}
-- {icon: "ti-github", link: "https://github.com/Gift-py"}
+- {icon: "ti-twitter", link: "https://twitter.com/0xg1f7"}
+- {icon: "ti-github", link: "https://github.com/gift-exe"}
 
 
 #-------------------------------
@@ -52,7 +51,7 @@ social:
 
 # About Section
 blurb:
-  I've got a lot to learn!! But I'll start with this... totally hyped up!! LFG!!! 😄✨
+  Hehehe Do you know the way? 
 
 blurb-btn-link: '/about'
 blurb-btn-name: know more
@@ -95,10 +94,12 @@ work-process:
 
 skills-title: Skills
 skills:
-- {name: Machine Learning, color: '#fdb157', value: '85%'}
-- {name: Data Science, color: '#ffbcaa', value: '70%'}
-- {name: Web Design, color: '#9473e6', value: '90%'}
-- {name: Web Development (Django), color: '#bdecf6', value: '70%'}
+- {name: Backend Engineering, color: '#bdecf6', value: '90%'}
+- {name: ML Engineering, color: '#fdb157', value: '85%'}
+- {name: Database Engineering, color: '#9473e6', value: '85%'}
+- {name: Dev Ops, color: '#ffbcaa', value: '70%'}
+- {name: Network Engineering, color: '#808080', value: '70%'}
+
 
 
 #-------------------------------
@@ -106,8 +107,10 @@ skills:
 
 experience-title: Experience
 experience:
-- {name: Networking and SW-Dev Intern, icon: 'icon-1.png', date: 'Aug 2021 - Nov 2021', organization: 'EARTHLINK'}
-- {name: Backend (DJango) Developer, icon: 'icon-2.png', date: 'April 2022 - Present', organization: 'MY EVERY DEAL'}
+- {name: Network Engineering Intern, icon: 'icon-1.png', date: 'Aug 2021 - Nov 2021', organization: 'EarthLink'}
+- {name: Backend Engineer, icon: 'icon-3.png', date: 'April 2022 - August 2022', organization: 'My Every Deal'}
+- {name: Backend Engineer, icon: 'icon-2.png', date: 'January 2023 - March 2023', organization: 'NitHub'}
+- {name: Backend Engineer, icon: 'icon-3.png', date: 'August 2023 - December 2023', organization: 'Workdistro'}
 
 
 
@@ -117,7 +120,7 @@ experience:
 education-title: Education
 education:
 - {name: B.Sc Computer Science, date: '2024', organization: 'Airforce Institute of Technology'}
-#- {name: Secondary School Certificate, date: '2019', organization: 'Christ Ambassadors College'}
+- {name: SSCE, date: '2019', organization: 'Christ Ambassadors College'}
 #- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
 #- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
 
@@ -125,25 +128,25 @@ education:
 #-------------------------------
 # Services Section
 
-services-title: Services
+services-title: Ready to Help You ...
 services:
 - {
-    name: Web Design,
-    icon: ti-palette,
-    description: 'I can create beautiful UI and UX designs for websites using HTML, CSS and JavaScript',
-    active: # Add true to select section
-  }
-- {
-    name: Web Development,
+    name: Develop APIs,
     icon: ti-vector,
-    description: 'Capble of creating fully functional web apps with the necessary technologies like python DJango.',
+    description: 'Design, implement, and deploy API services, to optimize business processes',
     active: true # Add true to select section
   }
 - {
-    name: Machine Learning and Data Science,
+    name: Develop Machine Learning Applications,
     icon: ti-panel,
-    description: 'develop artificial intelligence (AI) systems that use large data sets to research, develop, and generate algorithms that can learn and make predictions.',
-    active: #Add true to select section
+    description: 'Develop software systems using state of the art machine learning technologies.',
+    active: true #Add true to select section
+  }
+- {
+    name: Build Websites and webapps,
+    icon: ti-palette,
+    description: 'Develop and Deploy websites, webapps using latest technologies',
+    active: true # Add true to select section
   }
 
 
@@ -258,24 +261,24 @@ services:
 #-------------------------------
 # Client Slider Section
 
-client-slider-items:
-  - logo: "assets/images/clients-logo/myevrer.png"
-    url: "https://www.instagram.com/myeverydeal/"
+# client-slider-items:
+#   - logo: "assets/images/clients-logo/myevrer.png"
+#     url: "https://www.instagram.com/myeverydeal/"
     
-  - logo: "assets/images/clients-logo/icraft.png"
-    url: "#"
+#   - logo: "assets/images/clients-logo/icraft.png"
+#     url: "#"
 
-  - logo: "assets/images/clients-logo/myevrer.png"
-    url: "https://www.instagram.com/myeverydeal/"
+#   - logo: "assets/images/clients-logo/myevrer.png"
+#     url: "https://www.instagram.com/myeverydeal/"
     
-  - logo: "assets/images/clients-logo/icraft.png"
-    url: "#"
+#   - logo: "assets/images/clients-logo/icraft.png"
+#     url: "#"
 
-  - logo: "assets/images/clients-logo/myevrer.png"
-    url: "https://www.instagram.com/myeverydeal/"
+#   - logo: "assets/images/clients-logo/myevrer.png"
+#     url: "https://www.instagram.com/myeverydeal/"
     
-  - logo: "assets/images/clients-logo/icraft.png"
-    url: "#"
+#   - logo: "assets/images/clients-logo/icraft.png"
+#     url: "#"
     
   #- logo: "assets/images/clients-logo/client-logo-3.png"
   #  url: "#"
