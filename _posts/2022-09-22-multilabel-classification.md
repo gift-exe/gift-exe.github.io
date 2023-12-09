@@ -224,16 +224,16 @@ After this we just have to:
 -> and predict for the missing values.  
 -> decode predicted values.
 
-I'll stop here for now. I'll probably come back to complete this story (maybe, maybe-not). You'll never know... besides some stories are left uncompleted.  
+I'll stop here for now. I'll probably come back to complete this story (maybe, maybe-not). You'll never know... besides some stories are best left uncompleted.  
 
-Anyways if you wanna know how it ended you can always contact me. 😌  
+Anyways if you wanna know how it ends, you can do it yourself (hehe I'm evil lol)
 
 Plus these websites would be a lot of help... (atleast they were to me):  
 [this](https://machinelearningmastery.com/multi-label-classification-with-deep-learning/), 
 [this](https://youtu.be/TF1yh5PKaqI), and 
 [this one](https://machinelearningmastery.com/save-machine-learning-model-make-predictions-weka/).
 
-Plus you should check out my github [notebook](https://github.com/Gift-py/MultiLabelClassification/blob/main/model.ipynb)
+Plus you should check out the github [notebook](https://github.com/Gift-py/MultiLabelClassification/blob/main/model.ipynb)
 The source code is there.
 
 
